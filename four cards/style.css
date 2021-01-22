@@ -1,4 +1,8 @@
 main {
   background-color: black;
 }
+
+main body {
+  display: block;
+}
 /*# sourceMappingURL=style.css.map */
