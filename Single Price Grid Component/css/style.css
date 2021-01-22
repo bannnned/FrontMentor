@@ -62,6 +62,17 @@ main .row button {
   width: 100%;
 }
 
+main .row button:active {
+  opacity: 0.75;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+main .row button:hover {
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
 main .row > section {
   -webkit-box-flex: 1;
       -ms-flex: 1;
